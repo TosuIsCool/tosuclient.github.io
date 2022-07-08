@@ -1,0 +1,286 @@
+html,body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+.logot{
+    background-image: url("minecraft.png");
+    background-repeat: no-repeat;
+    background-size: 50px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    
+    
+}
+.topd{
+    margin-top: -40px;
+    margin-bottom: -160px;
+    height: 80px;
+    background-color: #333333;
+}
+
+.logotext{
+    width: 600px;
+    padding-left: 80px;
+    padding-top: -120px;
+    font-size: 40px;
+    color: wheat;
+}
+
+
+.topbuttons{
+    position: relative;
+    top: -85px;
+    width: 330px;
+    margin-left: auto;
+    margin-right: 1px;
+
+}
+.buttonmain1{
+    margin-right: 25px;
+    font-size:15px;
+    font-family:Arial;
+    width:140px;
+    height:35px;
+    color:#333333;
+    border-color:#ff9900;
+    font-weight:bold;
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
+    border-bottom-left-radius:6px;
+    border-bottom-right-radius:6px;
+    background: #ff9900;
+    cursor: pointer;
+}
+
+.buttonmain1:hover{
+    color: wheat;
+}
+
+.buttonmain2{
+    font-size:15px;
+    font-family:Arial;
+    width:140px;
+    height:35px;
+    color:#333333;
+    border-color:#ff9900;
+    font-weight:bold;
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
+    border-bottom-left-radius:6px;
+    border-bottom-right-radius:6px;
+    background: #ff9900;
+    cursor: pointer;
+}
+
+.buttonmain2:hover{
+    color: wheat;
+}
+.imagem{
+    background-image: url("image.jpg");
+    background-repeat: no-repeat;
+    background-size: 2144px;
+    height: 1200px;
+    
+}
+.maind{
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 650px;
+    margin-top: 10em;
+}
+
+.maint{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -3px;
+    color: wheat;
+    font-size: 5em;
+    width: 394px;
+    padding-top: 220px;
+}
+
+.smalltext{
+    color: aliceblue;
+    font-size: 23px;
+}
+
+.button1{
+  margin-top: 20px;
+  margin-right: 15px;
+  font-size:15px;
+  font-family:Arial;
+  width:140px;
+  height:35px;
+  color:#333333;
+  border-color:#ff9900;
+  font-weight:bold;
+  border-top-left-radius:6px;
+  border-top-right-radius:6px;
+  border-bottom-left-radius:6px;
+  border-bottom-right-radius:6px;
+  background: #ff9900;
+  cursor: pointer;
+}
+
+.button1:hover{
+    color: wheat;
+}
+
+.button2{
+    margin-right: 15px;
+    font-size:15px;
+    font-family:Arial;
+    width:140px;
+    height:35px;
+    color:#333333;
+    border-color:#ff9900;
+    font-weight:bold;
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
+    border-bottom-left-radius:6px;
+    border-bottom-right-radius:6px;
+    background: #ff9900;
+    cursor: pointer;
+  }
+
+.button2:hover{
+    color: white;
+}
+
+.maincontent{
+    background-color: #333333;
+    margin-top: 370px;
+    height: 640px;
+
+}
+
+.imptext{
+    font-size: 40px;
+    color: azure;
+    font-family: 'Oswald', sans-serif;
+}
+
+.impunder{
+    width: 750px;
+    color: antiquewhite;
+    font-size: 18px
+}
+
+.underimage{
+    width: 600px;
+}
+
+/*TOP CONTENT*//*TOP CONTENT*//*TOP CONTENT*//*TOP CONTENT*/
+
+@media only screen and (max-width: 977px) {
+    .topd{
+        height: 130px;
+    }
+    .logot{
+     top: 55px;
+     height: 62px;
+    }
+    .logotext {
+     font-size: 0px;
+    }
+    .buttonmain1{
+     width: 100px;
+     position: relative;
+     top: 79px;
+    }
+    .buttonmain2{
+     width: 100px;
+     position: relative;
+     top: 85px;
+    }
+    .topbuttons{
+        width: 120px;
+    }
+}
+
+/*MIDDLE CONTENT*//*MIDDLE CONTENT*//*MIDDLE CONTENT*//*MIDDLE CONTENT*/
+
+@media only screen and (max-width: 401px) {
+    .maint {
+        width: 250px;
+        font-size: 3em;
+      
+    }
+
+    .smalltext{
+        font-size: 19px;
+        width: 200px;
+    }
+
+}
+
+
+@media only screen and (max-width: 313px) {
+    .maint {
+        width: 200px;
+        font-size: 40px;
+      
+    }
+
+    .smalltext{
+        font-size: 16px;
+        width: 200px;
+    }
+
+    .button1{
+        margin-bottom: 10px;
+    }
+
+}
+
+/*DOWN CONTENT*//*DOWN CONTENT*//*DOWN CONTENT*//*DOWN CONTENT*/
+@media only screen and (max-width: 758px) {
+    .impunder {
+      width: 500px;
+    }
+
+    .underimage{
+        width: 490px;
+    }
+
+    .maincontent{
+        height: 690px;
+    }
+  }
+
+  @media only screen and (max-width: 506px) {
+    .impunder {
+      width: 350px;
+    }
+
+    .underimage{
+        width: 400px;
+    }
+
+    .maincontent{
+        height: 790px;
+    }
+}
+
+  @media only screen and (max-width: 412px) {
+    .imptext{
+      font-size: 25px;
+    }
+    .impunder {
+      font-size: 15px;
+      width: 250px;
+    }
+
+    .underimage{
+        width: 270px;
+    }
+
+    .maincontent{
+        height: 580px;
+    }
+  
+  }
